@@ -59,5 +59,5 @@ function random() {
 }
 
 function reset() {
-    $('#text-holder').text('Prompt goes here');
+    $('#text-holder').text('Prompt appears here');
 }
