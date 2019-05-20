@@ -27,12 +27,9 @@ async function init() {
             }
 
             for (let i = 0; i < 1000; i = i + 1) {
-
                 let randomNumber = Math.floor(Math.random() * wordList.length);
-
                 counterHolder[randomNumber] = counterHolder[randomNumber] + 1;
             }
-            console.log({counterHolder});
         }
     }
 }
